@@ -1055,7 +1055,7 @@ class MONETAccessor(object):
             ax.axes.outline_patch.set_alpha(0)
         except:
             ax.outline_patch.set_alpha(0)
-        self._tight_layout()
+        # self._tight_layout()
         return ax
 
     def quick_map(self, map_kws={}, center=True, **kwargs):
@@ -1107,7 +1107,7 @@ class MONETAccessor(object):
             ax.axes.outline_patch.set_alpha(0)
         except:
             ax.outline_patch.set_alpha(0)
-        self._tight_layout()
+        # self._tight_layout()
         return ax
 
     def _tight_layout(self):
