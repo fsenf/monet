@@ -1,0 +1,8 @@
+name: monet-docs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - monet 
+  - sphinx
+  - sphinx_rtd_theme
