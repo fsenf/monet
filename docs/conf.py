@@ -22,8 +22,8 @@ class Mock(MagicMock):
     def __getattr__(cls, name):
         return MagicMock()
 
-
-#sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
+MOCK_MODULES = ['cartopy', 'cartopy.crs',  'cartopy.feature']
+sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
 sys.path.insert(0, os.path.abspath('../'))
 # -- Project information -----------------------------------------------------
 

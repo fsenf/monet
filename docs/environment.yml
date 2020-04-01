@@ -1,8 +1,0 @@
-name: monet-docs
-
-channels:
-  - conda-forge
-
-dependencies:
-  - cartopy=0.17.0
-
