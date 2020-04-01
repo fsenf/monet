@@ -1,8 +1,17 @@
 name: monet-docs
+
 channels:
   - conda-forge
-  - defaults
+
 dependencies:
-  - monet 
-  - sphinx
-  - sphinx_rtd_theme
+  - python=3.6
+  - cartopy=0.17.0
+  - pip
+  - pip:
+    - matplotlib
+    - sphinx==2.1.2
+    - sphinx_rtd_theme==0.4.3
+    - numpy
+    - xarray
+    - seaborn
+
